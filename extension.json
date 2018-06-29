@@ -1,0 +1,23 @@
+{
+	"name": "SlatchSig",
+	"version": "0.0.0",
+	"author": [
+		"Ken Hilton"
+	],
+	"url": "https://github.com/Kenny2github/SlatchSig",
+	"descriptionmsg": "piwo-desc",
+	"license-name": "MIT",
+	"type": "parserhook",
+	"AutoloadClasses": {
+		"SlatchSig": "SlatchSig.class.php"
+	},
+	"Hooks": {
+		"ParserFirstCallInit": "SlatchSig::onParserSetup"
+	},
+	"MessagesDirs": {
+		"SlatchSig": [
+			"i18n"
+		]
+	},
+	"manifest_version": 1
+}
